@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+.first-section {
+    width: 200px;
+    height: 100%;
+    background-color: blueviolet;
+    float: left;
+}
+
+.photo {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px; 
+    
+}
+
+.navigation {
+    position: fixed;
+    align-items: center;
+    margin-top: 300px;
+    line-height: 40px;
+}
