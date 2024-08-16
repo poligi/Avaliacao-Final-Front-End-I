@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  background-color: white;
+}
+
+.profile-sidebar {
+  background-color: #781dce;
+  color: white;
+  padding: 20px;
+  width: 200px;
+  height: 96vh;
+  display: flex;
+  float: left;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.profile-sidebar a {
+  margin-top: 20px;
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+}
+
+.profile-sidebar a:hover {
+    color: darkmagenta;
+}
+
+.profile-sidebar .conhecimentos {
+    color: darkmagenta;
+}
+
+.profile-avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 10px;
+  align-items: center;
+  margin-left: 25px;
+}
+
+.profile-main {
+  margin: 220px 150px 60px 55px;
+  padding: 0;
+  background-color: white;
+  width: 100vh;
+  align-items: center;
+}
+
+.profile-main h1 {
+  font-size: 55px;
+  margin-right: 35px;
+  text-align: start;
+  margin-bottom: 10px;
+}
+
+
+.profile-main .highlight {
+  color: #781dce;
+  text-align: start;
+  margin-right: 35px;
+  display: inline-block;
+}
+
+.profile-main p {
+  margin-top: 80px;
+  color: #666;
+  font-size: 20px;
+  margin-bottom: 45px;
+}

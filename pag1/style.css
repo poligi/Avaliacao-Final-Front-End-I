@@ -3,10 +3,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    display: flex;
     align-items: center;
     height: 100vh;
-    background-color: #f4f4f4;
 }
 
 /* Container principal */
@@ -14,7 +12,6 @@ body {
     display: flex;
     width: 100%;
     background-color: white;
-    
 }
 
 /* Sidebar do perfil */
@@ -36,6 +33,14 @@ body {
     font-size: 25px;
     color: white;
     text-decoration: none;
+}
+
+.profile-sidebar a:hover {
+    color: darkmagenta;
+}
+
+.profile-sidebar .sobre {
+    color: darkmagenta;
 }
 
 /* Avatar */
@@ -82,10 +87,9 @@ body {
 /* Links das redes sociais */
 .social-links a {
     display: inline-block;
-    margin-right: 10px;
+    margin-right: 5px;
     color: #333;
     text-decoration: none;
-    font-size: 1.2em;
 }
 
 .social-links a:hover {
