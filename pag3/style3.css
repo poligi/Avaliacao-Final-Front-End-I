@@ -1,21 +1,18 @@
-/* Estilos básicos */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     align-items: center;
     height: 100vh;
-}
-
-/* Container principal */
-.container {
+  }
+  
+  .container {
     display: flex;
     width: 100%;
     background-color: white;
-}
-
-/* Sidebar do perfil */
-.profile-sidebar {
+  }
+  
+  .profile-sidebar {
     background-color: #781dce;
     color: white;
     padding: 20px;
@@ -26,83 +23,57 @@ body {
     text-align: center;
     justify-content: center;
     flex-direction: column;
-}
-
-.profile-sidebar a {
+  }
+  
+  .profile-sidebar a {
     margin-top: 20px;
     font-size: 25px;
     color: white;
     text-decoration: none;
-}
-
-.profile-sidebar a:hover {
-    color: darkmagenta;
-}
-
-.profile-sidebar .sobre {
-    color: darkmagenta;
-}
-
-/* Avatar */
-.profile-avatar {
+  }
+  
+  .profile-sidebar a:hover {
+      color: darkmagenta;
+  }
+  
+  .profile-sidebar .objetivo {
+      color: darkmagenta;
+  }
+  
+  .profile-avatar {
     width: 150px;
     height: 150px;
     border-radius: 50%;
     margin-top: 10px;
     align-items: center;
     margin-left: 25px;
-}
+  }
 
-/* Conteúdo principal */
-.profile-main {
+  .profile-main {
     margin: 220px 150px 60px 55px;
     padding: 0;
     background-color: white;
     width: 100vh;
     align-items: center;
-    
-}
-
-.profile-main a {
-    margin-top: 10px;
-    color: #666;
-    font-size: 20px;
-    margin-bottom: 60px;
-    text-decoration: none;
-}
-.profile-main a:hover {
-    color: #781dce;
-}
-
-.profile-main h1 {
+  }
+  
+  .profile-main h1 {
     font-size: 55px;
     margin-right: 35px;
     text-align: start;
     margin-bottom: 10px;
-}
-
-.profile-main .highlight {
+  }
+  
+  .profile-main .highlight {
     color: #781dce;
     text-align: start;
     margin-right: 35px;
     display: inline-block;
-}
-
-.profile-main p {
-    margin-top: 10px;
+  }
+  
+  .list {
+    margin-top: 80px;
     color: #666;
     font-size: 20px;
-    margin-bottom: 60px;
-}
-
-/* Links das redes sociais */
-.social-links a {
-    display: inline-block;
-    margin-right: 5px;
-    color: #333;
-    text-decoration: none;
-}
-
-.social-links a:hover {
-    color: #781dce;
-}
+    margin-bottom: 45px;
+  }
